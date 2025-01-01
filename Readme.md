@@ -35,7 +35,7 @@ pip install -r requirements.txt
 To run the sample files follow the below steps:
 
 ```bash
-python markdown_to_word_converter.py
+python md2docx_python.py
 Enter the path to the Markdown file (e.g., README.md): ..\sample_files\amazon_case_study.md  
 Enter the path for the output Word file (e.g., README.docx): ..\sample_files\amazon_case_study.docx
 ```
