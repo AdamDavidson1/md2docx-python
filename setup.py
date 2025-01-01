@@ -6,8 +6,8 @@ with open(path.join(working_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='md2docx_python-python',
-    version='0.1.0',
+    name='md2docx_python',
+    version='0.2.0',
     url='https://github.com/shloktech/md2docx-python',
     author='Shlok Tadilkar',
     author_email='shloktadilkar@gmail.com',
