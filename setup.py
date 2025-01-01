@@ -7,7 +7,7 @@ with open(path.join(working_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='md2docx_python',
-    version='0.3.0',
+    version='0.3.1',
     url='https://github.com/shloktech/md2docx-python',
     author='Shlok Tadilkar',
     author_email='shloktadilkar@gmail.com',
