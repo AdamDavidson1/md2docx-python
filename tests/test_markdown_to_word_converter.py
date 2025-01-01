@@ -1,8 +1,10 @@
-# import os
-# import pytest
-# from docx import Document
+import os
+import pytest
+from docx import Document
 # from src.markdown_to_word_converter import markdown_to_word
-#
+
+def test_dummy():
+    pass
 #
 # @pytest.fixture
 # def temp_files(tmp_path):
