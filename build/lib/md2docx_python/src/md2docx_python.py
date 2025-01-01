@@ -41,8 +41,3 @@ def markdown_to_word(markdown_file, word_file):
                 doc.add_paragraph(li.text, style='List Number')
     
     doc.save(word_file)
-
-markdown_file = input("Enter the path to the Markdown file (e.g., README.md): ")
-word_file = input("Enter the path for the output Word file (e.g., README.docx): ")
-
-markdown_to_word(markdown_file, word_file)
