@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: md2docx-python
-Version: 0.3.1
+Version: 0.3.2
 Summary: Markdown to Word Converter.
                 Simple and straight forward Python utility 
                 that converts a Markdown file (`.md`) to a Microsoft 
-                Word document (`.docx`). It supports basic Markdown 
+                Word document (`.docx`). It supports multiple Markdown 
                 elements, including headings, bold and italic text, 
-                and both unordered and ordered lists.
+                both unordered and ordered lists and many more.
 Home-page: https://github.com/shloktech/md2docx-python
 Author: Shlok Tadilkar
 Author-email: shloktadilkar@gmail.com
@@ -131,5 +131,8 @@ Description: # Markdown to Word Converter
         For any queries please start a discussion I will be happy to answer your queries :)
         
 Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
 Requires-Python: >=3.9.0
 Description-Content-Type: text/markdown
