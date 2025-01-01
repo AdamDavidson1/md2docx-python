@@ -6,11 +6,12 @@ with open(path.join(working_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='md2docx-python',
+    name='md2docx_python-python',
     version='0.1.0',
     url='https://github.com/shloktech/md2docx-python',
     author='Shlok Tadilkar',
     author_email='shloktadilkar@gmail.com',
+    license='MIT',
     description="""Markdown to Word Converter.
                 Simple and straight forward Python utility 
                 that converts a Markdown file (`.md`) to a Microsoft 
@@ -21,6 +22,7 @@ setup(
     long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=['markdown', 'python-docx', 'beautifulsoup4'],
+    python_requires=">=3.9.0",
 )
 
 
