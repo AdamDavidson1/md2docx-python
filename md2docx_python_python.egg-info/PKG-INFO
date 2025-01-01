@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: md2docx-python-python
-Version: 0.1.0
+Name: md2docx-python
+Version: 0.2.0
 Summary: Markdown to Word Converter.
                 Simple and straight forward Python utility 
                 that converts a Markdown file (`.md`) to a Microsoft 
