@@ -26,19 +26,55 @@ You need to have Python installed on your system along with the following librar
 - `python-docx` for creating and editing Word documents.
 - `beautifulsoup4` for parsing HTML.
 
-You can install the required libraries using pip:
+Sure, let's enhance your instructions for clarity and completeness:
+
+---
+
+### How to Convert Markdown to Word Using `md2docx-python`
+
+#### Step 1: Install the Required Library
+First, you need to install the `md2docx-python` library using pip. Open your terminal and run the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install md2docx-python
 ```
 
-To run the sample files follow the below steps:
+#### Step 2: Import the Library in Your Code
+To use the library, import it into your Python code with the following line:
 
-```bash
-python md2docx_python.py
-Enter the path to the Markdown file (e.g., README.md): ..\sample_files\amazon_case_study.md  
-Enter the path for the output Word file (e.g., README.docx): ..\sample_files\amazon_case_study.docx
+```python
+from md2docx_python.src.md2docx_python import markdown_to_word
 ```
+
+#### Step 3: Convert Markdown to Word
+Call the `markdown_to_word()` function to convert your Markdown file to a Word document. Here's the syntax:
+
+```python
+markdown_to_word(markdown_file, word_file)
+```
+
+- `markdown_file`: The path to the Markdown file you want to convert.
+- `word_file`: The desired path and name for the output Word document.
+
+#### Step 4: Sample Code
+Here's a complete example to illustrate how it works:
+
+```python
+from md2docx_python.src.md2docx_python import markdown_to_word
+
+# Define the paths to your files
+markdown_file = "sample_files/amazon_case_study.md"
+word_file = "sample_files/amazon_case_study.docx"
+
+# Convert the Markdown file to a Word document
+markdown_to_word(markdown_file, word_file)
+```
+
+This code will create a file named `amazon_case_study.docx`, which is the conversion of `amazon_case_study.md` to the Word format.
+
+---
+
+This should make it easier to understand and follow the steps. Let me know if you need any more help or further enhancements!
 
 ## Why this repo and not others ?
 
