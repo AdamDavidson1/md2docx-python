@@ -7,7 +7,7 @@ with open(path.join(working_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='md2docx_python',
-    version='1.0.0',
+    version='0.3.2',
     url='https://github.com/shloktech/md2docx-python',
     author='Shlok Tadilkar',
     author_email='shloktadilkar@gmail.com',
@@ -26,7 +26,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
-    install_requires=['markdown>=3.7', 'python-docx>=1.1.2', 'beautifulsoup4>=4.13.3'],
+    install_requires=['markdown', 'python-docx', 'beautifulsoup4'],
     python_requires=">=3.9.0",
 )
 
