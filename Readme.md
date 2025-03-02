@@ -4,6 +4,15 @@
 
 Simple and straight forward Python utility that converts Markdown files (`.md`) to Microsoft Word documents (`.docx`) and vice versa. It supports multiple Markdown elements, including headings, bold and italic text, both unordered and ordered lists, and many more.
 
+## Word to Markdown Conversion Example:
+#### Input .docx file:
+![image](https://github.com/user-attachments/assets/2891ebdf-ff36-4fd5-af2f-b35413264b06)
+
+#### Output .md file:
+![image](https://github.com/user-attachments/assets/e46c096b-762e-4f0c-a0ab-f81c3069a533)
+
+
+## Markdown to Word Conversion Example:
 #### Input .md file:
 ![image](https://github.com/user-attachments/assets/c2325e52-05a7-4e11-8f28-4eeb3d8c06f5)
 
@@ -14,6 +23,7 @@ Simple and straight forward Python utility that converts Markdown files (`.md`) 
 ## Features
 
 - Bi-directional conversion between Markdown and Word documents
+- Handles various programming languages code given in word doc like python, ruby and more.
 - Converts Markdown headers (`#`, `##`, `###`) to Word document headings and back
 - Supports bold and italic text formatting
 - Converts unordered (`*`, `-`) and ordered (`1.`, `2.`) lists
