@@ -2,17 +2,8 @@
 
 ## Overview
 
-Simple and straight forward Python utility that converts Markdown files (`.md`) to Microsoft Word documents (`.docx`) and vice versa. It supports multiple Markdown elements, including headings, bold and italic text, both unordered and ordered lists, and many more.
+Simple and straight forward Python utility that converts a Markdown file (`.md`) to a Microsoft Word document (`.docx`). It supports multiple Markdown elements, including headings, bold and italic text, both unordered and ordered lists, and many more.
 
-## Word to Markdown Conversion Example:
-#### Input .docx file:
-![image](https://github.com/user-attachments/assets/2891ebdf-ff36-4fd5-af2f-b35413264b06)
-
-#### Output .md file:
-![image](https://github.com/user-attachments/assets/e46c096b-762e-4f0c-a0ab-f81c3069a533)
-
-
-## Markdown to Word Conversion Example:
 #### Input .md file:
 ![image](https://github.com/user-attachments/assets/c2325e52-05a7-4e11-8f28-4eeb3d8c06f5)
 
@@ -22,22 +13,18 @@ Simple and straight forward Python utility that converts Markdown files (`.md`) 
 
 ## Features
 
-- Bi-directional conversion between Markdown and Word documents
-- Handles various programming languages code given in word doc like python, ruby and more.
-- Converts Markdown headers (`#`, `##`, `###`) to Word document headings and back
-- Supports bold and italic text formatting
-- Converts unordered (`*`, `-`) and ordered (`1.`, `2.`) lists
-- Handles paragraphs with mixed content
-- Preserves document structure during conversion
+- Converts Markdown headers (`#`, `##`, `###`) to Word document headings.
+- Supports bold and italic text formatting.
+- Converts unordered (`*`, `-`) and ordered (`1.`, `2.`) lists.
+- Handles paragraphs with mixed content.
 
 ## Prerequisites
 
 You need to have Python installed on your system along with the following libraries:
 
-- `markdown` for converting Markdown to HTML
-- `python-docx` for creating and editing Word documents
-- `beautifulsoup4` for parsing HTML
-- `mammoth` for converting Word to HTML
+- `markdown` for converting Markdown to HTML.
+- `python-docx` for creating and editing Word documents.
+- `beautifulsoup4` for parsing HTML.
 
 Sure, let's enhance your instructions for clarity and completeness:
 
@@ -87,33 +74,7 @@ This code will create a file named `amazon_case_study.docx`, which is the conver
 
 ---
 
-#### For Converting Word to Markdown
-Use the `word_to_markdown()` function to convert your Word document to Markdown:
-
-```python
-word_to_markdown(word_file, markdown_file)
-```
-
-- `word_file`: The path to the Word document you want to convert
-- `markdown_file`: The desired path and name for the output Markdown file
-
-
-Here's a complete example:
-
-```python
-from md2docx_python.src.docx2md_python import word_to_markdown
-
-# Define the paths to your files
-word_file = "sample_files/test_document.docx"
-markdown_file = "sample_files/test_document_output.md"
-
-# Convert the Word document to a Markdown file
-word_to_markdown(word_file, markdown_file)
-```
-
-This code will create a file named `test_document_output.md`, which is the conversion of `test_document.docx` to the Markdown format.
-
----
+This should make it easier to understand and follow the steps. Let me know if you need any more help or further enhancements!
 
 ## Why this repo and not others ?
 
@@ -146,11 +107,6 @@ Here are some reasons why this repo might be considered better or more suitable 
 
 ### 8. **Privacy**
    - If you are working in a corporate firm and you want to convert your markdown files to word and you use a online tool to do it then there are chances that they will store your file which can cause to a vital information leak of your company. With use of this repo you can easily do the conversion in your own system.
-
-### 9. **Bi-directional Conversion**
-   - **Complete Workflow**: Convert documents in both directions, allowing for round-trip document processing
-   - **Format Preservation**: Maintains formatting and structure when converting between formats
-   - **Flexibility**: Easily switch between Markdown and Word formats based on your needs
 
 ### Comparison to Other Scripts
 - **Feature Set**: Some scripts may lack comprehensive support for Markdown features or may not handle lists and text formatting well.
