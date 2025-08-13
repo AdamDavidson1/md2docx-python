@@ -24,6 +24,8 @@ def markdown_to_word(markdown_file, word_file):
             doc.add_heading(element.text, level=2)
         elif element.name == 'h3':
             doc.add_heading(element.text, level=3)
+        elif element.name == 'h4':
+            doc.add_heading(element.text, level=4)
         elif element.name == 'p':
             paragraph = doc.add_paragraph()
             for child in element.children:
